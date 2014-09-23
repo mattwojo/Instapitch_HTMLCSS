@@ -179,6 +179,19 @@ h1.top_bar {
   font: black;
 }
 
+/*MAIN*/
+.main-buttons {
+  text-align: center;
+}
+
+h2.main-buttons {
+  color: #342B56;
+}
+
+h3.main-buttons {
+  color: #BFAC36;
+}
+
 /*BUTTON STYLE*/
 
 li {
@@ -190,6 +203,7 @@ li {
   padding: 10px;
   margin: 10px;
   background: #35292D;
+  width: 20em;
     /* Font styles */
   color: white;
   font-weight: bold;
