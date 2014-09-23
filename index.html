@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InstaPITCH</title>
+    <link rel='stylesheet' type='text/css' href ="main.css">
+  </head>
+  <body>
+    <header class="content">
+      <nav role="banner" class="top_bar">
+        <h1 class="top_bar_logo_insta">INSTA<span class="top_bar_logo_pitch">PITCH</span></h1>
+        <p>Created during Code Fellows Project Week.</p>
+        <p>Visit the <a class="text_link" href="http://codefellows.org" target="_blank">Code Fellows Website</a> to learn more.</p>
+      </nav>
+      <hgroup>
+        <h2 class="hgroup">“Tell me about yourself.”</h2>
+        <p>Job seekers screw this up all the time - with everything from “Where do you want me to start?”, to trying to share their whole life story. </p>
+        <p>A strong 30-second pitch is one of the most useful job search and networking tools available to you. The process of creating your own personal pitch can be clarifying, illuminating, and very challenging to put together. A good pitch addresses who you are and what you are good at.</p>
+        <p> InstaPITCH can help you focus your pitch -- establishing a comfortable starting place, and reference point, for interviews, networking, social gatherings, and even interested family and friends.
+        </p>
+      </hgroup>
+    </header>
+<!-- Dropdown Menu Test -->
+      <section class="main clearfix">
+        <div class="fleft">
+          <p>In this example we use a gutter of 5 and stack the items with a slight offset</p>
+        </div>
+        <div class="fleft">
+          <select id="cd-dropdown" name="cd-dropdown" class="cd-select">
+            <option value="-1" selected>Choose your favorite animal</option>
+            <option value="1" class="icon-monkey">Monkey</option>
+            <option value="2" class="icon-bear">Bear</option>
+            <option value="3" class="icon-squirrel">Squirrel</option>
+            <option value="4" class="icon-elephant">Elephant</option>
+          </select>
+        </div>
+      </section>
+    </div><!-- /container -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+    <script type="text/javascript">
 
-        <link rel ="stylesheet" href ="main.css">
-    </head>
-    <body>
-      <header class="content">
-          <hgroup>
-            <h1>Instapitch</h1>
-            <p>A solid elevator pitch is one of your most useful job search tools and the process can be both clarifying and illuminating. A good pitch addresses who you are, what you do and why you would be a perfect candidate… in a memorable way. It becomes a comfortable starting place, and reference point, for interviews, networking, social gatherings, and even interested family and friends.</p>
-            <div class='track'>
+      $( function() {
+
+        $( '#cd-dropdown' ).dropdown( {
+          gutter : 5
+        } );
+
+      });
+
+    </script>
+<!--     End Dropdown Menu Test -->
+
+    <section class="dropdown-menu">
+      <div class='track'>
               <ul>
                 <li class='track__dropdown'><a href='#'><span>Choose your track</span></a>
               <ul>
@@ -23,21 +64,22 @@
                 </li>
               </ul>
             </div>
-          </hgroup>
-       </header>
+    </section>
 
-<section class="section group">
-  <h2> Now narrow it down to your core three strengths</h2>
+
+
+<section class="section-buttons">
+  <h2> These are my strongest...</h2>
   <div class="col span_1_of_2">
-  This is column 1
+  Skills
   <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
+    <li><a href="#" class="section-buttons-a">+ Object Oriented Modeling</a></li>
+    <li><a href="#" class="section-buttons-a">+ Optimizing Performance</a></li>
+    <li><a href="#" class="section-buttons-a">+ Behavior Driven Development</a></li>
   </ul>
     </div>
   <div class="col span_2_of_2">
-  This is column 2
+  Personal Traits
   <ul>
     <li>1</li>
     <li>2</li>

@@ -19,43 +19,55 @@ body {
 header {
   height: 100%;
   position: relative;
-
-  background: url("nebula.jpg") center no-repeat;
+  background: url("office_blur.jpg") center no-repeat;
   background-size: cover;
 }
 
-header .content {
+/*header .content {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 
-}
-header h1, header h2 {
+}*/
+
+/*header h1, header h2 {
   margin: 0;
-}
-header h2 {
+}*/
+/*header h2 {
   text-transform: uppercase;
   margin-top: -.5em;
+}*/
+
+
+
+
+h2.hgroup {
+  text-align: center;
+  color: yellow;
+  opacity: .8;
 }
+
 header hgroup {
   display: inline-block;
-  text-align: left;
+  text-align: justify;
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 20%;
+  right: 20%;
   color: #fff;
   border: 5px solid #fff;
-  padding: 1em 3em;
-  margin-right: 50em;
-  font-size: .5em;
+  padding: 0em 1em;
+  line-height: 1.2;
+  font-size: 1em;
   background-color: rgba(0, 50, 20, 0.3);
-}
-
-#track{
 
 }
+
+/*#track{
+
+}*/
 
 
 /*header .overlay {
@@ -71,7 +83,7 @@ header hgroup {
 }*/
 
 
-banner{}
+/*banner{}
 intro__mainimage{}
 intro__blurb{}
 intro_dropdown{}
@@ -85,15 +97,15 @@ buttons__strengths__traits{}
 proven{}
 proven__mainimage{}
 proven__title{}
-proven__input{}
+proven__input{}*/
 
 
 
-.section {
+/*.section {
   clear: both;
   padding: 0px;
   margin: 0px;
-}
+}*/
 
 /*  COLUMN SETUP  */
 .col {
@@ -126,6 +138,82 @@ proven__input{}
 }
 .span_1_of_3 {
   width: 32.2%;
+}
+
+/*TOP FIXED HEADER*/
+.top_bar {
+  color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  text-transform: uppercase;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+}
+
+
+.top_bar_logo_insta {
+  text-align: center;
+  font: 1em "Silverfake";
+  display: block;
+  float:left;
+  margin: 1% 0 0 1%;
+}
+
+.top_bar_logo_pitch {
+    text-align: center;
+    font: 2em "Average", serif;
+}
+
+.top_bar p {
+  margin: .5em;
+  font-size: 0.9em;
+  text-align: center;
+  letter-spacing: .1em;
+  line-height: .8;
+}
+.top_bar a.text_link {
+  text-decoration: underline;
+  color: orange;
+  }
+h1.top_bar {
+  font: black;
+}
+
+/*BUTTON STYLE*/
+
+ul {
+  text-decoration: none;
+}
+
+.section-buttons-a {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background: #08C;
+    /* Font styles */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.section-buttons-a:hover {
+  background: #0AF;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/*FONTS*/
+@font-face {
+    font-family: Average;
+    src: url(fonts/Average-Regular.ttf);
+}
+
+@font-face {
+    font-family: Silverfake;
+    src: url(fonts/Silverfake.otf);
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
