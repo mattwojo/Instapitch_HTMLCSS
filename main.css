@@ -20,7 +20,7 @@ header {
   height: 100%;
   position: relative;
 
-  background: url("intro.jpg") center no-repeat;
+  background: url("nebula.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -40,22 +40,24 @@ header h2 {
   margin-top: -.5em;
 }
 header hgroup {
-/*  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);*/
   display: inline-block;
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   color: #fff;
   border: 5px solid #fff;
-  padding: .5em 3em;
-  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1em 3em;
+  margin-right: 50em;
+  font-size: .5em;
+  background-color: rgba(0, 50, 20, 0.3);
+}
+
+#track{
 
 }
+
+
 /*header .overlay {
   position: absolute;
   top: 0;
