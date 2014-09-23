@@ -181,24 +181,23 @@ h1.top_bar {
 
 /*BUTTON STYLE*/
 
-ul {
-  text-decoration: none;
+li {
+  list-style-type: none;
 }
 
 .section-buttons-a {
   display: inline-block;
   padding: 10px;
   margin: 10px;
-  background: #08C;
+  background: #35292D;
     /* Font styles */
   color: white;
   font-weight: bold;
   text-decoration: none;
-
 }
 
 .section-buttons-a:hover {
-  background: #0AF;
+  background: #725963;
   color: white;
   font-weight: bold;
   text-decoration: none;
